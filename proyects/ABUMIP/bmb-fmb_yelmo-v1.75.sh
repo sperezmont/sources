@@ -14,8 +14,9 @@ runopt='-r'
 paropt="ytopo.kt=1.0e-3"
 
 cd ${yelmox_path}
+echo "###########################"
 echo "Running bmb-fmb experiments"
-
+echo "###########################"
 # Now we will run the experiments ABUC and ABUM
 for k in $exps; do
     for i in $bmbmeth; do
@@ -31,5 +32,8 @@ for k in $exps; do
 done
 done
 done
+
+cd "/home/sergio/entra/proyects/ABUMIP/scripts/sh"
+nohup ./abumip_02_yelmo-v1.75.sh &
 
 

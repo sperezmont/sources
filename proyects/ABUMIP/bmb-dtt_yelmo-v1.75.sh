@@ -11,8 +11,9 @@ fldr=output/ismip6/bmb-dtt_yelmo-v1.75/
 path_restart=${yelmox_path}/output/ismip6/bmb_restart_yelmo-v1.75/
 runopt='-r'
 paropt="ytopo.kt=1.0e-3"
-
+echo "###########################"
 echo "Running bmb-dtt experiments"
+echo "###########################"
 cd ${yelmox_path}
 # First we create the restart file (spin-up) for each bmb method
 #for i in ${bmbmeth}; do
@@ -46,5 +47,5 @@ done
 done
 done
 
-# cd "/home/sergio/entra/proyects/ABUMIP/scripts/sh"
-# nohup ./bmb-fmb_yelmo-v1.75.sh &
+cd "/home/sergio/entra/proyects/ABUMIP/scripts/sh"
+nohup ./bmb-fmb_yelmo-v1.75.sh &
