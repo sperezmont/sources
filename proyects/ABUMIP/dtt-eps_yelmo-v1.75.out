@@ -1,0 +1,1420 @@
+###########################
+Running dtt-eps experiments
+###########################
+### abum-floating_eps0.5_dtt0.5
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps0.5_dtt0.5
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps0.5_dtt0.5  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abum-floating_eps0.5_dtt1.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps0.5_dtt1.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps0.5_dtt1.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         79
+
+timestep             0.799
+
+pc_eps, tol =   0.5000       10.00    
+pc_eta_avg  =   0.5161    
+iter        pc_dt      pc_eta
+   n   0.1000E-01  0.5086    
+ n-1   0.1000E-01  0.5168    
+ n-2   0.1000E-01  0.5229    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         3099.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =          0.799: stopping model (killed).
+
+### abum-floating_eps0.5_dtt2.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps0.5_dtt2.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps0.5_dtt2.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         79
+
+timestep             0.801
+
+pc_eps, tol =   0.5000       10.00    
+pc_eta_avg  =   0.5147    
+iter        pc_dt      pc_eta
+   n   0.1000E-01  0.5076    
+ n-1   0.1000E-01  0.5147    
+ n-2   0.1000E-01  0.5219    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         3249.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =          0.801: stopping model (killed).
+
+### abum-floating_eps0.5_dtt3.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps0.5_dtt3.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps0.5_dtt3.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         79
+
+timestep             0.800
+
+pc_eps, tol =   0.5000       10.00    
+pc_eta_avg  =   0.5147    
+iter        pc_dt      pc_eta
+   n   0.1000E-01  0.5096    
+ n-1   0.1000E-01  0.5127    
+ n-2   0.1000E-01  0.5219    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         3122.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =          0.800: stopping model (killed).
+
+### abum-floating_eps0.5_dtt4.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps0.5_dtt4.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps0.5_dtt4.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         79
+
+timestep             0.801
+
+pc_eps, tol =   0.5000       10.00    
+pc_eta_avg  =   0.5147    
+iter        pc_dt      pc_eta
+   n   0.1000E-01  0.5076    
+ n-1   0.1000E-01  0.5147    
+ n-2   0.1000E-01  0.5219    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         3249.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =          0.801: stopping model (killed).
+
+### abum-floating_eps0.5_dtt5.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps0.5_dtt5.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps0.5_dtt5.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of        122
+
+timestep            34.173
+
+pc_eps, tol =   0.5000       10.00    
+pc_eta_avg  =    1.919    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   1.902    
+ n-1   0.1000E-01   1.921    
+ n-2   0.1000E-01   1.935    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5026.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =         34.173: stopping model (killed).
+
+### abum-floating_eps1.0_dtt0.5
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps1.0_dtt0.5
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps1.0_dtt0.5  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abum-floating_eps1.0_dtt1.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps1.0_dtt1.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps1.0_dtt1.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abum-floating_eps1.0_dtt2.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps1.0_dtt2.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps1.0_dtt2.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abum-floating_eps1.0_dtt3.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps1.0_dtt3.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps1.0_dtt3.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abum-floating_eps1.0_dtt4.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps1.0_dtt4.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps1.0_dtt4.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abum-floating_eps1.0_dtt5.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps1.0_dtt5.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps1.0_dtt5.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abum-floating_eps2.0_dtt0.5
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps2.0_dtt0.5
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps2.0_dtt0.5  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abum-floating_eps2.0_dtt1.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps2.0_dtt1.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps2.0_dtt1.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abum-floating_eps2.0_dtt2.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps2.0_dtt2.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps2.0_dtt2.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abum-floating_eps2.0_dtt3.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps2.0_dtt3.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps2.0_dtt3.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abum-floating_eps2.0_dtt4.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps2.0_dtt4.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps2.0_dtt4.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abum-floating_eps2.0_dtt5.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps2.0_dtt5.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps2.0_dtt5.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abum-floating_eps3.0_dtt0.5
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps3.0_dtt0.5
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps3.0_dtt0.5  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abum-floating_eps3.0_dtt1.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps3.0_dtt1.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps3.0_dtt1.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abum-floating_eps3.0_dtt2.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps3.0_dtt2.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps3.0_dtt2.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abum-floating_eps3.0_dtt3.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps3.0_dtt3.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps3.0_dtt3.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abum-floating_eps3.0_dtt4.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps3.0_dtt4.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps3.0_dtt4.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abum-floating_eps3.0_dtt5.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps3.0_dtt5.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-floating_eps3.0_dtt5.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-floating_eps0.5_dtt0.5
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps0.5_dtt0.5
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps0.5_dtt0.5  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-floating_eps0.5_dtt1.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps0.5_dtt1.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps0.5_dtt1.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-floating_eps0.5_dtt2.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps0.5_dtt2.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps0.5_dtt2.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-floating_eps0.5_dtt3.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps0.5_dtt3.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps0.5_dtt3.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-floating_eps0.5_dtt4.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps0.5_dtt4.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps0.5_dtt4.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-floating_eps0.5_dtt5.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps0.5_dtt5.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps0.5_dtt5.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-floating_eps1.0_dtt0.5
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps1.0_dtt0.5
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps1.0_dtt0.5  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-floating_eps1.0_dtt1.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps1.0_dtt1.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps1.0_dtt1.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-floating_eps1.0_dtt2.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps1.0_dtt2.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps1.0_dtt2.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-floating_eps1.0_dtt3.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps1.0_dtt3.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps1.0_dtt3.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-floating_eps1.0_dtt4.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps1.0_dtt4.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps1.0_dtt4.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-floating_eps1.0_dtt5.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps1.0_dtt5.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps1.0_dtt5.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-floating_eps2.0_dtt0.5
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps2.0_dtt0.5
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps2.0_dtt0.5  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-floating_eps2.0_dtt1.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps2.0_dtt1.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps2.0_dtt1.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-floating_eps2.0_dtt2.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps2.0_dtt2.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps2.0_dtt2.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-floating_eps2.0_dtt3.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps2.0_dtt3.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps2.0_dtt3.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-floating_eps2.0_dtt4.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps2.0_dtt4.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps2.0_dtt4.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-floating_eps2.0_dtt5.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps2.0_dtt5.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps2.0_dtt5.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-floating_eps3.0_dtt0.5
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps3.0_dtt0.5
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps3.0_dtt0.5  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-floating_eps3.0_dtt1.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps3.0_dtt1.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps3.0_dtt1.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-floating_eps3.0_dtt2.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps3.0_dtt2.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps3.0_dtt2.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-floating_eps3.0_dtt3.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps3.0_dtt3.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps3.0_dtt3.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-floating_eps3.0_dtt4.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps3.0_dtt4.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps3.0_dtt4.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-floating_eps3.0_dtt5.0
+Directory created: output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps3.0_dtt5.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-floating_eps3.0_dtt5.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abum-marine_eps0.5_dtt0.5
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps0.5_dtt0.5
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps0.5_dtt0.5  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         50
+
+timestep             6.500
+
+pc_eps, tol =   0.5000       10.00    
+pc_eta_avg  =    3.616    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   5.678    
+ n-1   0.1000E-01   2.268    
+ n-2   0.1000E-01   2.902    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5165.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =          6.500: stopping model (killed).
+
+### abum-marine_eps0.5_dtt1.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps0.5_dtt1.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps0.5_dtt1.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         50
+
+timestep             3.500
+
+pc_eps, tol =   0.5000       10.00    
+pc_eta_avg  =    2.711    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   2.956    
+ n-1   0.1000E-01   3.938    
+ n-2   0.1000E-01   1.238    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5000.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =          3.500: stopping model (killed).
+
+### abum-marine_eps0.5_dtt2.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps0.5_dtt2.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps0.5_dtt2.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         51
+
+timestep             0.523
+
+pc_eps, tol =   0.5000       10.00    
+pc_eta_avg  =    4.241    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   3.135    
+ n-1   0.1000E-01   4.144    
+ n-2   0.1000E-01   5.442    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5509.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =          0.523: stopping model (killed).
+
+### abum-marine_eps0.5_dtt3.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps0.5_dtt3.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps0.5_dtt3.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         51
+
+timestep             0.523
+
+pc_eps, tol =   0.5000       10.00    
+pc_eta_avg  =    4.238    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   3.135    
+ n-1   0.1000E-01   4.140    
+ n-2   0.1000E-01   5.438    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5512.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =          0.523: stopping model (killed).
+
+### abum-marine_eps0.5_dtt4.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps0.5_dtt4.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps0.5_dtt4.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         51
+
+timestep             0.523
+
+pc_eps, tol =   0.5000       10.00    
+pc_eta_avg  =    4.241    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   3.135    
+ n-1   0.1000E-01   4.144    
+ n-2   0.1000E-01   5.442    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5509.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =          0.523: stopping model (killed).
+
+### abum-marine_eps0.5_dtt5.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps0.5_dtt5.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps0.5_dtt5.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         51
+
+timestep             0.523
+
+pc_eps, tol =   0.5000       10.00    
+pc_eta_avg  =    4.237    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   3.131    
+ n-1   0.1000E-01   4.142    
+ n-2   0.1000E-01   5.438    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5511.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =          0.523: stopping model (killed).
+
+### abum-marine_eps1.0_dtt0.5
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps1.0_dtt0.5
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps1.0_dtt0.5  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         50
+
+timestep             7.000
+
+pc_eps, tol =    1.000       10.00    
+pc_eta_avg  =    4.263    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   4.396    
+ n-1   0.1000E-01   5.853    
+ n-2   0.1000E-01   2.539    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5186.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =          7.000: stopping model (killed).
+
+### abum-marine_eps1.0_dtt1.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps1.0_dtt1.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps1.0_dtt1.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         85
+
+timestep             2.854
+
+pc_eps, tol =    1.000       10.00    
+pc_eta_avg  =    4.396    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   3.908    
+ n-1   0.1000E-01   5.160    
+ n-2   0.1000E-01   4.120    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5241.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =          2.854: stopping model (killed).
+
+### abum-marine_eps1.0_dtt2.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps1.0_dtt2.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps1.0_dtt2.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of        188
+
+timestep             1.977
+
+pc_eps, tol =    1.000       10.00    
+pc_eta_avg  =    4.233    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   4.698    
+ n-1   0.1000E-01   6.234    
+ n-2   0.1000E-01   1.768    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5250.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =          1.977: stopping model (killed).
+
+### abum-marine_eps1.0_dtt3.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps1.0_dtt3.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps1.0_dtt3.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         70
+
+timestep             3.702
+
+pc_eps, tol =    1.000       10.00    
+pc_eta_avg  =    2.433    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   1.619    
+ n-1   0.1000E-01   2.448    
+ n-2   0.1000E-01   3.231    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5828.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =          3.702: stopping model (killed).
+
+### abum-marine_eps1.0_dtt4.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps1.0_dtt4.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps1.0_dtt4.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of        188
+
+timestep             1.977
+
+pc_eps, tol =    1.000       10.00    
+pc_eta_avg  =    4.233    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   4.698    
+ n-1   0.1000E-01   6.234    
+ n-2   0.1000E-01   1.768    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5250.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =          1.977: stopping model (killed).
+
+### abum-marine_eps1.0_dtt5.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps1.0_dtt5.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps1.0_dtt5.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of        185
+
+timestep             1.957
+
+pc_eps, tol =    1.000       10.00    
+pc_eta_avg  =    3.374    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   2.474    
+ n-1   0.1000E-01   3.284    
+ n-2   0.1000E-01   4.364    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5530.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =          1.957: stopping model (killed).
+
+### abum-marine_eps2.0_dtt0.5
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps2.0_dtt0.5
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps2.0_dtt0.5  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         50
+
+timestep            16.500
+
+pc_eps, tol =    2.000       10.00    
+pc_eta_avg  =    5.657    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   4.107    
+ n-1   0.1000E-01   5.493    
+ n-2   0.1000E-01   7.371    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         6545.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =         16.500: stopping model (killed).
+
+### abum-marine_eps2.0_dtt1.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps2.0_dtt1.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps2.0_dtt1.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         74
+
+timestep            15.743
+
+pc_eps, tol =    2.000       10.00    
+pc_eta_avg  =    5.156    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   8.498    
+ n-1   0.1000E-01   2.909    
+ n-2   0.1000E-01   4.061    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5934.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =         15.743: stopping model (killed).
+
+### abum-marine_eps2.0_dtt2.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps2.0_dtt2.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps2.0_dtt2.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         77
+
+timestep            16.772
+
+pc_eps, tol =    2.000       10.00    
+pc_eta_avg  =    5.313    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   3.383    
+ n-1   0.1000E-01   4.502    
+ n-2   0.1000E-01   8.055    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         6678.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =         16.772: stopping model (killed).
+
+### abum-marine_eps2.0_dtt3.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps2.0_dtt3.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps2.0_dtt3.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of        242
+
+timestep            14.441
+
+pc_eps, tol =    2.000       10.00    
+pc_eta_avg  =    9.229    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   7.686    
+ n-1   0.1000E-01   7.408    
+ n-2   0.1000E-01   12.59    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         6133.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =         14.441: stopping model (killed).
+
+### abum-marine_eps2.0_dtt4.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps2.0_dtt4.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps2.0_dtt4.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of        382
+
+timestep            11.881
+
+pc_eps, tol =    2.000       10.00    
+pc_eta_avg  =    3.128    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   2.545    
+ n-1   0.1000E-01   3.381    
+ n-2   0.1000E-01   3.457    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5524.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =         11.881: stopping model (killed).
+
+### abum-marine_eps2.0_dtt5.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps2.0_dtt5.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps2.0_dtt5.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of        338
+
+timestep             8.456
+
+pc_eps, tol =    2.000       10.00    
+pc_eta_avg  =    8.074    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   10.28    
+ n-1   0.1000E-01   9.914    
+ n-2   0.1000E-01   4.030    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5107.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =          8.456: stopping model (killed).
+
+### abum-marine_eps3.0_dtt0.5
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps3.0_dtt0.5
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps3.0_dtt0.5  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         50
+
+timestep            22.000
+
+pc_eps, tol =    3.000       10.00    
+pc_eta_avg  =    12.42    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   15.77    
+ n-1   0.1000E-01   9.369    
+ n-2   0.1000E-01   12.12    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         6381.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =         22.000: stopping model (killed).
+
+### abum-marine_eps3.0_dtt1.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps3.0_dtt1.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps3.0_dtt1.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         78
+
+timestep             8.798
+
+pc_eps, tol =    3.000       10.00    
+pc_eta_avg  =    7.307    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   6.167    
+ n-1   0.1000E-01   8.232    
+ n-2   0.1000E-01   7.522    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5101.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =          8.798: stopping model (killed).
+
+### abum-marine_eps3.0_dtt2.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps3.0_dtt2.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps3.0_dtt2.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of        137
+
+timestep            21.391
+
+pc_eps, tol =    3.000       10.00    
+pc_eta_avg  =    11.58    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   13.56    
+ n-1   0.1000E-01   16.84    
+ n-2   0.1000E-01   4.358    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5692.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =         21.391: stopping model (killed).
+
+### abum-marine_eps3.0_dtt3.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps3.0_dtt3.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps3.0_dtt3.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         96
+
+timestep            21.961
+
+pc_eps, tol =    3.000       10.00    
+pc_eta_avg  =    6.944    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   4.232    
+ n-1   0.1000E-01   6.441    
+ n-2   0.1000E-01   10.16    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5597.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =         21.961: stopping model (killed).
+
+### abum-marine_eps3.0_dtt4.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps3.0_dtt4.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps3.0_dtt4.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         78
+
+timestep            20.808
+
+pc_eps, tol =    3.000       10.00    
+pc_eta_avg  =    4.846    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   3.524    
+ n-1   0.1000E-01   4.710    
+ n-2   0.1000E-01   6.303    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5818.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =         20.808: stopping model (killed).
+
+### abum-marine_eps3.0_dtt5.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps3.0_dtt5.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abum-marine_eps3.0_dtt5.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of        236
+
+timestep            22.392
+
+pc_eps, tol =    3.000       10.00    
+pc_eta_avg  =    10.96    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   15.90    
+ n-1   0.1000E-01   6.576    
+ n-2   0.1000E-01   10.40    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5516.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =         22.392: stopping model (killed).
+
+### abuk-marine_eps0.5_dtt0.5
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps0.5_dtt0.5
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps0.5_dtt0.5  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         50
+
+timestep             4.500
+
+pc_eps, tol =   0.5000       10.00    
+pc_eta_avg  =    1.458    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   2.001    
+ n-1   0.1000E-01  0.9829    
+ n-2   0.1000E-01   1.390    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         4474.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =          4.500: stopping model (killed).
+
+### abuk-marine_eps0.5_dtt1.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps0.5_dtt1.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps0.5_dtt1.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         50
+
+timestep             1.500
+
+pc_eps, tol =   0.5000       10.00    
+pc_eta_avg  =    1.875    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   1.878    
+ n-1   0.1000E-01   2.077    
+ n-2   0.1000E-01   1.670    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         4932.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =          1.500: stopping model (killed).
+
+### abuk-marine_eps0.5_dtt2.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps0.5_dtt2.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps0.5_dtt2.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         50
+
+timestep             2.500
+
+pc_eps, tol =   0.5000       10.00    
+pc_eta_avg  =    2.246    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   3.006    
+ n-1   0.1000E-01   2.226    
+ n-2   0.1000E-01   1.506    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         4640.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =          2.500: stopping model (killed).
+
+### abuk-marine_eps0.5_dtt3.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps0.5_dtt3.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps0.5_dtt3.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of        227
+
+timestep             2.276
+
+pc_eps, tol =   0.5000       10.00    
+pc_eta_avg  =    4.007    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   2.905    
+ n-1   0.1000E-01   3.886    
+ n-2   0.1000E-01   5.229    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         4617.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =          2.276: stopping model (killed).
+
+### abuk-marine_eps0.5_dtt4.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps0.5_dtt4.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps0.5_dtt4.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of        227
+
+timestep             2.276
+
+pc_eps, tol =   0.5000       10.00    
+pc_eta_avg  =    4.007    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   2.905    
+ n-1   0.1000E-01   3.886    
+ n-2   0.1000E-01   5.229    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         4617.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =          2.276: stopping model (killed).
+
+### abuk-marine_eps0.5_dtt5.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps0.5_dtt5.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps0.5_dtt5.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of        227
+
+timestep             2.276
+
+pc_eps, tol =   0.5000       10.00    
+pc_eta_avg  =    4.007    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   2.905    
+ n-1   0.1000E-01   3.886    
+ n-2   0.1000E-01   5.229    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         4617.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =          2.276: stopping model (killed).
+
+### abuk-marine_eps1.0_dtt0.5
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps1.0_dtt0.5
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps1.0_dtt0.5  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         50
+
+timestep            17.500
+
+pc_eps, tol =    1.000       10.00    
+pc_eta_avg  =    2.280    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   1.982    
+ n-1   0.1000E-01   3.374    
+ n-2   0.1000E-01   1.484    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5080.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =         17.500: stopping model (killed).
+
+### abuk-marine_eps1.0_dtt1.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps1.0_dtt1.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps1.0_dtt1.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         68
+
+timestep            17.696
+
+pc_eps, tol =    1.000       10.00    
+pc_eta_avg  =    2.315    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   2.258    
+ n-1   0.1000E-01   3.204    
+ n-2   0.1000E-01   1.481    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5000.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =         17.696: stopping model (killed).
+
+### abuk-marine_eps1.0_dtt2.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps1.0_dtt2.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps1.0_dtt2.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of        109
+
+timestep            17.162
+
+pc_eps, tol =    1.000       10.00    
+pc_eta_avg  =    2.203    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   1.912    
+ n-1   0.1000E-01   3.300    
+ n-2   0.1000E-01   1.398    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5103.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =         17.162: stopping model (killed).
+
+### abuk-marine_eps1.0_dtt3.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps1.0_dtt3.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps1.0_dtt3.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of        229
+
+timestep            17.426
+
+pc_eps, tol =    1.000       10.00    
+pc_eta_avg  =    2.130    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   3.188    
+ n-1   0.1000E-01   1.353    
+ n-2   0.1000E-01   1.849    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5000.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =         17.426: stopping model (killed).
+
+### abuk-marine_eps1.0_dtt4.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps1.0_dtt4.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps1.0_dtt4.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of        109
+
+timestep            17.254
+
+pc_eps, tol =    1.000       10.00    
+pc_eta_avg  =    2.138    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   3.164    
+ n-1   0.1000E-01   1.375    
+ n-2   0.1000E-01   1.876    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5117.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =         17.254: stopping model (killed).
+
+### abuk-marine_eps1.0_dtt5.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps1.0_dtt5.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps1.0_dtt5.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of        258
+
+timestep            17.729
+
+pc_eps, tol =    1.000       10.00    
+pc_eta_avg  =    2.370    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   1.914    
+ n-1   0.1000E-01   1.992    
+ n-2   0.1000E-01   3.204    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5000.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =         17.729: stopping model (killed).
+
+### abuk-marine_eps2.0_dtt0.5
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps2.0_dtt0.5
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps2.0_dtt0.5  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-marine_eps2.0_dtt1.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps2.0_dtt1.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps2.0_dtt1.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         67
+
+timestep            61.670
+
+pc_eps, tol =    2.000       10.00    
+pc_eta_avg  =    4.034    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   3.707    
+ n-1   0.1000E-01   5.286    
+ n-2   0.1000E-01   3.109    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         6944.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =         61.670: stopping model (killed).
+
+### abuk-marine_eps2.0_dtt2.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps2.0_dtt2.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps2.0_dtt2.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of        150
+
+timestep            65.557
+
+pc_eps, tol =    2.000       10.00    
+pc_eta_avg  =    14.45    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   15.51    
+ n-1   0.1000E-01   13.77    
+ n-2   0.1000E-01   14.08    
+
+range(H_ice):        0.000         5000.    
+range(uxy_bar):      0.000         7071.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =         65.557: stopping model (killed).
+
+### abuk-marine_eps2.0_dtt3.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps2.0_dtt3.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps2.0_dtt3.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         50
+
+timestep            54.500
+
+pc_eps, tol =    2.000       10.00    
+pc_eta_avg  =    16.39    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   13.37    
+ n-1   0.1000E-01   15.24    
+ n-2   0.1000E-01   20.56    
+
+range(H_ice):        0.000         4731.    
+range(uxy_bar):      0.000         6766.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =         54.500: stopping model (killed).
+
+### abuk-marine_eps2.0_dtt4.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps2.0_dtt4.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps2.0_dtt4.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of        185
+
+timestep            53.894
+
+pc_eps, tol =    2.000       10.00    
+pc_eta_avg  =    5.669    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   4.569    
+ n-1   0.1000E-01   5.933    
+ n-2   0.1000E-01   6.506    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         7071.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =         53.894: stopping model (killed).
+
+### abuk-marine_eps2.0_dtt5.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps2.0_dtt5.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps2.0_dtt5.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of        229
+
+timestep            52.985
+
+pc_eps, tol =    2.000       10.00    
+pc_eta_avg  =    3.287    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   2.871    
+ n-1   0.1000E-01   4.350    
+ n-2   0.1000E-01   2.641    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         7071.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =         52.985: stopping model (killed).
+
+### abuk-marine_eps3.0_dtt0.5
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps3.0_dtt0.5
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps3.0_dtt0.5  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-marine_eps3.0_dtt1.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps3.0_dtt1.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps3.0_dtt1.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         55
+
+timestep            62.551
+
+pc_eps, tol =    3.000       10.00    
+pc_eta_avg  =    9.770    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   7.357    
+ n-1   0.1000E-01   11.14    
+ n-2   0.1000E-01   10.81    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         5013.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =         62.551: stopping model (killed).
+
+### abuk-marine_eps3.0_dtt2.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps3.0_dtt2.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps3.0_dtt2.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of        125
+
+timestep            61.342
+
+pc_eps, tol =    3.000       10.00    
+pc_eta_avg  =    4.846    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   5.924    
+ n-1   0.1000E-01   4.301    
+ n-2   0.1000E-01   4.311    
+
+range(H_ice):        0.000         5000.    
+range(uxy_bar):      0.000         7071.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =         61.342: stopping model (killed).
+
+### abuk-marine_eps3.0_dtt3.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps3.0_dtt3.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps3.0_dtt3.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+### abuk-marine_eps3.0_dtt4.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps3.0_dtt4.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps3.0_dtt4.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP yelmo_check_kill error, see log.
+
+
+yelmo_check_kill:: Error: model is not running properly:
+Too many iterations of dt_min called continuously for this timestep.        50 of         87
+
+timestep            64.874
+
+pc_eps, tol =    3.000       10.00    
+pc_eta_avg  =    5.683    
+iter        pc_dt      pc_eta
+   n   0.1000E-01   4.647    
+ n-1   0.1000E-01   5.233    
+ n-2   0.1000E-01   7.170    
+
+range(H_ice):        0.000         4726.    
+range(uxy_bar):      0.000         7071.    
+
+ Restart file written: yelmo_killed.nc
+
+Time =         64.874: stopping model (killed).
+
+### abuk-marine_eps3.0_dtt5.0
+Directory already exists: output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps3.0_dtt5.0
+Running job in background: cd output/ismip6/dtt-eps_yelmo-v1.75//abuk-marine_eps3.0_dtt5.0  && exec ./yelmox_ismip6.x yelmo_ismip6_Antarctica-AR-restart.nml > out.out &
+#-- Process finished --#
+cp: cannot stat 'nohup.out': No such file or directory

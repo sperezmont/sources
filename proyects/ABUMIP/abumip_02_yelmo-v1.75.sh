@@ -1,9 +1,9 @@
 # ABUMIP 02 experiments with Yelmo v1.75
 # Aim: 3 standard experiments plus abuk-marine & abum-marine, this uses yelmo_ismip6_Antarctica-AR-restart.nml
-file_restart=/home/sergio/entra/ice_data/restart/alexr-yelmo_ismip6/spinup_32km_68/0/yelmo_restart.nc
+file_restart=/home/sergio/entra/ice_data/restart/ismip6/v1.753/yelmo_restart.nc  #/home/sergio/entra/ice_data/restart/alexr-yelmo_ismip6/spinup_32km_68/0/yelmo_restart.nc
 
 fldr=output/ismip6/abumip_02_yelmo-v1.75/
-
+yelmox_path=/home/sergio/entra/yelmo_vers/v1.75/yelmox/
 namelist=yelmo_ismip6_Antarctica-AR-restart.nml
 runopt='-r'
 paropt="ytopo.kt=1.0e-3"
@@ -11,7 +11,8 @@ paropt="ytopo.kt=1.0e-3"
 echo "###########################"
 echo "Running abumip_02 experiments"
 echo "###########################"
-cd /home/sergio/entra/yelmo_vers/v1.75/yelmox/
+cd ${yelmox_path}
+
 # ABUC - control experiment
 ./runylmox ${runopt} -e ismip6 -n par/${namelist} -o ${fldr}/abuc -p abumip.scenario="abuc" ctrl.run_step="abumip_proj" yelmo.restart=${file_restart} abumip_proj.scenario="ctrl" tf_cor.name="dT_nl" marine_shelf.gamma_quad_nl=14500 isostasy.method=0 ${paropt} 
 

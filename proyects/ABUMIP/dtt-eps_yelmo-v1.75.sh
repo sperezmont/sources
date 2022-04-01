@@ -8,6 +8,7 @@ runopt='-r'
 paropt="ytopo.kt=1.0e-3"
 namelist=yelmo_ismip6_Antarctica-AR-restart.nml
 
+bc=$(echo "floating" "marine")
 exps=$(echo "abum" "abuk")
 eps=$(echo 0.5 1.0 2.0 3.0)
 timesteps=$(echo 0.5 1.0 2.0 3.0 4.0 5.0)
@@ -17,14 +18,18 @@ echo "Running dtt-eps experiments"
 echo "###########################"
 
 cd ${yelmox_path}
-for k in $exps; do
-    for i in $eps; do
-        for j in $timesteps; do
-            echo "### ${k}-marine_eps${i}_dtt${j}"
-            ./runylmox ${runopt} -e ismip6 -n par/${namelist} -o ${fldr}/${k}-marine_eps${i}_dtt${j} -p abumip.scenario=${k} ctrl.run_step="abumip_proj" yelmo.restart=${file_restart} abumip_proj.scenario="ctrl" tf_cor.name="dT_nl" marine_shelf.gamma_quad_nl=14500 isostasy.method=0 ${paropt} ydyn.ssa_lat_bc="marine" yelmo.pc_eps=${i} abumip_proj.dtt=${j}
-            while pgrep -x "yelmox_ismip6.x" > /dev/null; do
-                sleep 2
-            done
+for m in $bc; do
+	for k in $exps; do
+	    for i in $eps; do
+		for j in $timesteps; do
+		    echo "### ${k}-${m}_eps${i}_dtt${j}"
+		    ./runylmox ${runopt} -e ismip6 -n par/${namelist} -o ${fldr}/${k}-${m}_eps${i}_dtt${j} -p abumip.scenario=${k} ctrl.run_step="abumip_proj" yelmo.restart=${file_restart} abumip_proj.scenario="ctrl" tf_cor.name="dT_nl" marine_shelf.gamma_quad_nl=14500 isostasy.method=0 ${paropt} ydyn.ssa_lat_bc=${m} yelmo.pc_eps=${i} abumip_proj.dtt=${j}
+		    while pgrep -x "yelmox_ismip6.x" > /dev/null; do
+		        sleep 2
+		    done
 done
 done
 done
+done
+echo "#-- Process finished --#"
+cp nohup.out dtt-eps_yelmo-v1.75.out
