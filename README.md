@@ -1,3 +1,3 @@
-# sources
-*Some useful sources*
+# resources
+*Some useful resources*
 
