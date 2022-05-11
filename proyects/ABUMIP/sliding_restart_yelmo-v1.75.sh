@@ -14,13 +14,13 @@ paropt="ytopo.kt=1.0e-3"
 echo "Generating sliding (q) spin-ups"
 cd ${yelmox_path}
 for i in ${betaq}; do
-    FILE=${path_restart}/${i}/yelmo_restart.nc
+    FILE=${path_restart}/meth${slidingmethod}_beta_q${i}/yelmo_restart.nc
     if [ -f "$FILE" ]; then
         echo "$FILE exists"
     else
         echo " ## $FILE does not exist"
-        echo " ### Generating beta_q${i} restart file"
-        ./runylmox ${runopt} -e ismip6 -n par/${namelist} -o ${path_restart}/beta_q${i} -p ctrl.run_step="spinup_ismip6" tf_cor.name="dT_nl" marine_shelf.gamma_quad_nl=14500 ytopo.kt=1.0e-3 ymat.enh_shear=1 ydyn.beta_method=${slidingmethod} ydyn.beta_q=${i}
+        echo " ### Generating meth${slidingmethod}_beta_q${i} restart file"
+        ./runylmox ${runopt} -e ismip6 -n par/${namelist} -o ${path_restart}/meth${slidingmethod}_beta_q${i} -p ctrl.run_step="spinup_ismip6" tf_cor.name="dT_nl" marine_shelf.gamma_quad_nl=14500 ytopo.kt=1.0e-3 ymat.enh_shear=1 ydyn.beta_method=${slidingmethod} ydyn.beta_q=${i}
 
         #while pgrep -x "yelmox_ismip6.x" > /dev/null; do
         #    sleep 2
