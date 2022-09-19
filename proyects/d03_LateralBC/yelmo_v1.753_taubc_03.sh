@@ -11,9 +11,9 @@ runopt='-r'
 
 # experiment switch
 spinup=0	 # already done in taubc_02, set 0!!
-standard=1
-zero=1
-ice=1
+standard=0
+zero=0
+ice=0
 ocean=1
 
 marine=1
@@ -156,7 +156,7 @@ while pgrep -x "yelmox_ismip6.x" > /dev/null; do
 done
 
 #### bco --> tau_bc_int =-0.5d0*rho_sw *g*H_ocn_now**2; abumip.bmb = [-10, -400] (for abum)
-cp ${yelmo_path}solver_ssa_sico5_ice.F90 ${yelmo_path}solver_ssa_sico5.F90
+cp ${yelmo_path}solver_ssa_sico5_ocean.F90 ${yelmo_path}solver_ssa_sico5.F90
 make clean
 make yelmox_ismip6
 
