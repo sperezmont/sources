@@ -1,4 +1,4 @@
-# dtt 03 (yelmo v1.753_sergio-test)
+# dtt 03 (yelmo v1.753)
 # Aim: study the effect of lateral bc and timestepping
 #      First--> we want to see ABUK and ABUM with: 
 #                                        dt_method=2
@@ -11,19 +11,19 @@
 #                                        dtt = [0.1, 1.0]
 #       and see if adaptive timestepping is doing right
 
-yelmox_path=/home/sergio/entra/models/yelmo_vers/v1.753_sergio-test/yelmox/
-yelmo_path=/home/sergio/entra/models/yelmo_vers/v1.753_sergio-test/yelmox/yelmo/src/physics/
-exp_name="dtt_033"
+yelmox_path=/home/sergio/entra/models/yelmo_vers/v1.75/yelmox/
+yelmo_path=/home/sergio/entra/models/yelmo_vers/v1.75/yelmox/yelmo/src/physics/
+exp_name="dtt_03"
 
-dtt_values=$(echo "0.05") # "0.05" "0.01")
-min_fixed_dtt=0.01
+dtt_values=$(echo "0.01")
+min_fixed_dtt=0.008
 
 namelist=yelmo_ismip6_Antarctica-AR-restart.nml
 fldr=output/ismip6/d03_LateralBC/${exp_name}/
 runopt='-r'
 
 # experiment switch
-spinup=1	 # 
+spinup=0	 # 
 forced=1
 
 adaptive=0
@@ -67,9 +67,9 @@ if [ ${forced} -eq 1 ]; then
 floating_restart=${yelmox_path}/${fldr}/spinup_${exp_name}_f/yelmo_restart.nc
 marine_restart=${yelmox_path}/${fldr}/spinup_${exp_name}_m/yelmo_restart.nc
 
-while pgrep -x "yelmox_ismip6.x" > /dev/null; do
-	    sleep 10
-done
+#while pgrep -x "yelmox_ismip6.x" > /dev/null; do
+#	    sleep 10
+#done
 
 if [ ${adaptive} -eq 1 ]; then
 # Adaptive time stepping experiments
@@ -97,6 +97,8 @@ if [ ${fixed} -eq 1 ]; then
 for i in ${dtt_values}; do
 floating_restart=${yelmox_path}/${fldr}/spinup_${exp_name}_fd${i}/yelmo_restart.nc
 marine_restart=${yelmox_path}/${fldr}/spinup_${exp_name}_md${i}/yelmo_restart.nc
+
+echo ${marine_restart}
 
 if [ ${marine} -eq 1 ]; then
 # MARINE
